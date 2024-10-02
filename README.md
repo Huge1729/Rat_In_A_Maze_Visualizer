@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+# Rat In A Maze Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+The **Rat In A Maze Visualizer** is an interactive web application developed using React that visualizes the solution to the classic maze problem using the Breadth-First Search (BFS) algorithm. Users can generate different maze configurations and observe how the algorithm navigates through the maze to find a path from the starting point to the destination.
 
-## Available Scripts
+## Features
+- **Interactive Visualization:** Users can interact with the maze by adding barriers and altering its dimensions.
+- **Algorithm Visualization:** Watch the BFS algorithm in action as it explores the maze and finds the solution.
+- **Customizable Settings:** Change the maze size and adjust the speed of the algorithm to suit your preferences.
 
-In the project directory, you can run:
+## Technologies Used
+- **Frontend:** React
+- **Styling:** Tailwind CSS
+- **Visualization:** Breath First Search Algo
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
+- Node.js
+- npm (Node Package Manager)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Huge1729/Rat_In_A_Maze_Visualizer.git
+   cd Rat_In_A_Maze_Visualizer
+2. Install dependencies
+   ```bash
+   npm install
+### Running the Application
+- To start the development server, run:
+  ```bash
+  npm start
+- Open your browser and go to http://localhost:3000 to view the application
+### Usage
+Once the application is running, you can:
 
-### `npm test`
+- Generate a new maze by clicking the "Generate Maze" button.
+- Add barriers by clicking on the grid cells.
+- Click "Start" to visualize the BFS algorithm finding the path through the maze.
+### Acknowledgements
+- Inspired by classic algorithms and their visualizations.
+- Special thanks to the React community for the support and resources.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
